@@ -58,7 +58,7 @@ StratifiedKFold 5 folds
 | F1-Score | 99.84% | ±0.03% |
 | ROC-AUC | 99.998% | ±0.001% |
 
-**Outputs gerados** (`/kaggle/working/`):
+**Outputs gerados** (`Resultados_original`):
 - `models_metrics.csv` — métricas por fold
 - `metrics_summary.csv` — médias e desvio padrão
 - `loss_curves.png` — curvas de loss por fold
@@ -104,7 +104,7 @@ StratifiedKFold 5 folds
 
 > A queda de performance em relação ao artigo é esperada — os ataques são *simulados* sobre dados reais, tornando o problema mais difícil do que injeções controladas em laboratório.
 
-**Outputs gerados** (`/kaggle/working/`):
+**Outputs gerados** (`Resultados_Replica_comma`):
 - `metricas_por_fold.csv` — métricas por fold
 - `metricas_resumo.csv` — médias e desvio padrão
 - `loss_curves.png` — curvas de loss por fold
